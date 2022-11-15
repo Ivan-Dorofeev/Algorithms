@@ -7,5 +7,20 @@ def twoSum(nums, target):
             if nums[x] + nums[y] == target:
                 return (x, y)
 
+
 # 2
-#
+# Проверка на полиндромность числа
+def isPalindrome(x):
+    middle = len(str(x)) // 2
+    a = str(x)[:middle]
+    if len(str(x)) % 2 > 0:
+        middle += 1
+    b = str(x)[middle:]
+    if a == b[::-1] or len(str(x)) == 1:
+        return True
+    else:
+        return False
+
+
+
+# print(isPalindrome(1))
