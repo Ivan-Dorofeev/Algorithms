@@ -1,6 +1,5 @@
 # 1
 # Вывести индексы чисел из списка, при сложении будет target: [1,2,3,4], 6 = (1,3)
-
 def twoSum(nums, target):
     for x in range(len(nums)):
         for y in range(x + 1, len(nums)):
@@ -22,5 +21,5 @@ def isPalindrome(x):
         return False
 
 
-
-# print(isPalindrome(1))
+# 3
+#
